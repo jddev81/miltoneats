@@ -11,7 +11,7 @@
 		<!--STYLESHEETS-->
 		<link rel="stylesheet" href="/css/app.css">
 		<!--FONTS-->
-
+		<link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
 		<!--JS-->
 
 		<title></title>

@@ -10660,6 +10660,10 @@ a.text-dark:focus {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
+body {
+  font-family: "Oswald", sans-serif;
+}
+
 .home-page-wrapper .hero {
   background-image: url("/img/tacos.jpg");
   height: 100vh;
