@@ -98,7 +98,7 @@ body {
 				button.submit {
 					float:right;
 					width:15%;
-					background-color:$highlight;
+					background-color:$highlight2;
 					color:white;
 					text-align:center;
 					border:none !important;
@@ -111,7 +111,7 @@ body {
 					transition:all 0.5s;
 					&:hover {
 						cursor:pointer;
-						background-color:$highlight2;
+						background-color:$highlight;
 					}
 				}
 			}
