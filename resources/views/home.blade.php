@@ -37,6 +37,33 @@
 				</div>
 			</div>
 		</div>
+
+
+
+		<div class="under-hero">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<img class="icon-img" src="/img/icons/takeOutPack/036-restaurant-2.png" alt="Restaurant">
+						<h2>Local Favorites</h2>
+						<p>Satisfy your cravings! Browse all restaurants in Milton, WV. Browse by category or delivery status.</p>
+					</div>
+					<div class="col-sm-4">
+						<img class="icon-img" src="/img/icons/takeOutPack/011-favorite.png" alt="Favorite Restaurants">
+						<h2>Favorite Restaurants</h2>
+						<p>Save your favorite restaurants for quick access on your next visit.</p>
+					</div>
+					<div class="col-sm-4">
+						<img class="icon-img" src="/img/icons/takeOutPack/037-reward.png" alt="Rewarded With Free Food">
+						<h2>Free Food</h2>
+						<p>Create an account to be entered into our monthly drawing for a free gift certificate.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
 	</div>
 
 @endsection

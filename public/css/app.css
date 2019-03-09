@@ -10678,7 +10678,7 @@ body {
 }
 
 .home-page-wrapper .hero .img-fluid {
-  max-width: 50%;
+  max-width: 300px;
   padding: 25px;
 }
 
@@ -10727,5 +10727,27 @@ body {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   box-shadow: 0px 0px 2px #ccc;
+}
+
+.under-hero {
+  padding: 100px 0px;
+  text-align: center;
+}
+
+.under-hero .icon-img {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  display: block;
+}
+
+.under-hero h2 {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.under-hero p {
+  padding: 5px 15px;
 }
 

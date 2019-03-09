@@ -14,7 +14,7 @@ body {
 		background-size:cover;
 		background-position:center;
 		.img-fluid {
-			max-width:50%;
+			max-width:300px;
 			padding:25px;
 		}
 	}
@@ -64,5 +64,39 @@ body {
 				}
 			}
 		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.under-hero {
+	padding:100px 0px;
+	text-align:center;
+
+	.icon-img {
+		height:100px;
+		width:100px;
+		margin:0 auto;
+		//margin-bottom:25px;
+		display:block;
+	}
+	h2 {
+		font-weight:bold;
+		font-size:16px;
+		margin-top:10px;
+	}
+	p {
+		padding:5px 15px;
 	}
 }
