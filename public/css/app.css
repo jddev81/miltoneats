@@ -10662,6 +10662,7 @@ a.text-dark:focus {
 
 body {
   font-family: "Oswald", sans-serif;
+  font-size: 16px;
 }
 
 .home-page-wrapper {
@@ -10680,6 +10681,27 @@ body {
 .home-page-wrapper .hero .img-fluid {
   max-width: 300px;
   padding: 25px;
+}
+
+.home-page-wrapper nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.home-page-wrapper nav ul li {
+  float: right;
+  display: inline-block;
+}
+
+.home-page-wrapper nav ul li a {
+  color: #6666FF;
+  display: inline-block;
+  padding: 5px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-left: 20px;
+  font-size: 18px;
 }
 
 .home-page-wrapper .hero-content {
@@ -10702,37 +10724,55 @@ body {
   margin-top: 30px;
 }
 
+.home-page-wrapper .hero-content .selection form span.icon {
+  cursor: normal;
+  background-color: #EBEBEB;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 10%;
+  border: none !important;
+  outline: none !important;
+  display: inline-block;
+  float: left;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  color: #6666FF;
+}
+
 .home-page-wrapper .hero-content .selection form select {
   -webkit-appearance: none;
   padding: 8px;
-  width: 85%;
+  width: 75%;
   background-color: #EBEBEB;
   border: 0px;
   oultine: none !important;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
   font-weight: 300;
-  box-shadow: 0px 0px 2px #ccc;
 }
 
 .home-page-wrapper .hero-content .selection form select:focus {
   border: 0px !important;
   outline: none !important;
-  box-shadow: 0px 0px 2px #ccc;
 }
 
 .home-page-wrapper .hero-content .selection form button.submit {
   float: right;
   width: 15%;
-  background-color: #ED0A18;
+  background-color: #ff7e0a;
   color: white;
   text-align: center;
   border: none !important;
   outline: none !important;
-  padding: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-  box-shadow: 0px 0px 2px #ccc;
+  transition: all 0.5s;
+}
+
+.home-page-wrapper .hero-content .selection form button.submit:hover {
+  cursor: pointer;
+  background-color: #dc6800;
 }
 
 .under-hero {
@@ -10751,9 +10791,13 @@ body {
   font-weight: bold;
   font-size: 16px;
   margin-top: 10px;
+  color: #025F80;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .under-hero p {
   padding: 5px 15px;
+  font-weight: 300;
 }
 
