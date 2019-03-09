@@ -156,3 +156,27 @@ body {
 		font-weight:300;
 	}
 }
+
+.is-relative {
+	position:relative;
+}
+
+.order-up {
+	padding:100px 0px;
+	h2 {
+		color:$headings;
+	}
+	p {
+		font-weight:300;
+	}
+	.chat-bubble {
+		height:125px;
+		width:125px;
+		position:absolute;
+		bottom:-20px;
+		left:-20px;
+		img {
+			width:100%;
+		}
+	}
+}

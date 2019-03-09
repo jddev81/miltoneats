@@ -68,6 +68,30 @@
 
 
 
+		<div class="order-up">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5">
+						<h2>Find a local restaurant to crush that craving!</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="col-md-5 offset-md-2 is-relative">
+						<img class="img-fluid" src="/img/serving-burger.jpeg" alt="Pic of burger being served">
+						<div class="chat-bubble">
+							<img src="/img/order-up.png" alt="Order's Up!">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
 	</div>
 
 @endsection

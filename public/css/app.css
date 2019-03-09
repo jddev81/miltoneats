@@ -10801,3 +10801,31 @@ body {
   font-weight: 300;
 }
 
+.is-relative {
+  position: relative;
+}
+
+.order-up {
+  padding: 100px 0px;
+}
+
+.order-up h2 {
+  color: #025F80;
+}
+
+.order-up p {
+  font-weight: 300;
+}
+
+.order-up .chat-bubble {
+  height: 125px;
+  width: 125px;
+  position: absolute;
+  bottom: -20px;
+  left: -20px;
+}
+
+.order-up .chat-bubble img {
+  width: 100%;
+}
+
